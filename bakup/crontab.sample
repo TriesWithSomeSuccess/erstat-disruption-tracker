@@ -1,0 +1,23 @@
+# Provincial scrapers — replaces the old NSH-only crontab.
+#
+# Required env in /opt/erstat/.env (most already exist from snapshot-to-ts.js):
+#   TS_API_URL=https://ts.erstat.ca
+#   TS_API_KEY=<X-History-Key>
+#   ANTHROPIC_API_KEY=sk-ant-...
+#   CF_ACCOUNT_ID=...
+#   CF_API_TOKEN=...
+#   CF_D1_DB_PRODUCTION=92f88bfd-b665-4ca6-b218-468bdb69aa78
+#   CURL_IMPERSONATE_PATH=/opt/erstat/bin/curl-impersonate-chrome   # optional, default
+
+# ============================================================
+# erstat-support LXC (Cape Breton, residential IP)
+# ============================================================
+
+*/5 * * * * /opt/erstat/run-scrape.sh
+
+# ============================================================
+# Optional: run a single provider for ad-hoc backfill / debug
+# (run from shell, not cron)
+# ============================================================
+# PROVIDER=ns_nshealth /opt/erstat/run-scrape.sh
+# PROVIDER=ns_nshealth,nb_horizon /opt/erstat/run-scrape.sh

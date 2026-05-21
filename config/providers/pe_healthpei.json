@@ -1,0 +1,27 @@
+{
+  "_comment": "Health PEI facility name slugs -> ERstat hospital_id. Source: D1 hospitals table for PE + has_er=1. Five distinct ER hospitals (Queen Elizabeth, Prince County, Kings County Memorial, Western, Souris). The duplicate 'pe_westernhospitalcorpo' in D1 is ignored here; both name variants map to 'pe_westernhospital' as the canonical ID.",
+  "_last_reviewed": "2026-05-20",
+  "_source_url": "https://lite.princeedwardisland.ca/",
+  "_note_d1": "D1 has a duplicate Western Hospital row (pe_westernhospitalcorpo) at the same coordinates. Pending cleanup.",
+  "queen-elizabeth-hospital": "pe_queenelizabethhospit",
+  "prince-county-hospital": "pe_princecountyhospital",
+  "kings-county-memorial-hospital": "pe_kingscountymemorialh",
+  "souris-hospital": "pe_sourishospital",
+  "western-hospital": "pe_westernhospital",
+  "qeh": "pe_queenelizabethhospit",
+  "queen-elizabeth": "pe_queenelizabethhospit",
+  "prince-county": "pe_princecountyhospital",
+  "pch": "pe_princecountyhospital",
+  "kcmh": "pe_kingscountymemorialh",
+  "kings-county-memorial": "pe_kingscountymemorialh",
+  "souris": "pe_sourishospital",
+  "western-hospital-corporation": "pe_westernhospital",
+  "western-hospital-alberton": "pe_westernhospital",
+  "_city_to_id": {
+    "charlottetown": "pe_queenelizabethhospit",
+    "summerside": "pe_princecountyhospital",
+    "montague": "pe_kingscountymemorialh",
+    "souris": "pe_sourishospital",
+    "alberton": "pe_westernhospital"
+  }
+}

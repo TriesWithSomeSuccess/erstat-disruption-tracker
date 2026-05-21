@@ -1,0 +1,26 @@
+{
+  "_comment": "Horizon Health Network (NB anglophone) facility name slugs -> ERstat hospital_id. IDs verified against waitlog-db hospitals table 2026-05-18. Slug keys are what nb_horizon.js's slugify() produces from a facility name. Multiple keys may point to the same ID to handle title variations (e.g., 'The Moncton Hospital' vs 'Moncton Hospital'). Vitalite (francophone NB) facilities are tracked separately by the nb_vitalite provider (when built).",
+  "_last_reviewed": "2026-05-18",
+  "_status": "IDs verified against D1; slug variants confirmed empirically — watch source_audit_log for unknown_slug entries after first live pass",
+
+  "saint-john-regional-hospital":              "nb_saintjohnregionalhos",
+  "moncton-hospital":                          "nb_themonctonhospital",
+  "the-moncton-hospital":                      "nb_themonctonhospital",
+  "dr-everett-chalmers-regional-hospital":     "nb_dreverettchalmersreg",
+  "everett-chalmers-regional-hospital":        "nb_dreverettchalmersreg",
+  "chalmers-regional-hospital":                "nb_dreverettchalmersreg",
+  "miramichi-regional-hospital":               "nb_miramichiregionalhos",
+  "upper-river-valley-hospital":               "nb_upperrivervalleyhosp",
+  "sackville-memorial-hospital":               "nb_sackvillememorialhos",
+  "sussex-health-centre":                      "nb_sussexhealthcentre",
+  "grand-manan-hospital":                      "nb_grandmananhospital",
+  "charlotte-county-hospital":                 "nb_charlottecountyhospi",
+  "oromocto-public-hospital":                  "nb_oromoctopublichospit",
+  "st-josephs-hospital":                       "nb_stjosephshospitalhpi",
+  "saint-josephs-hospital":                    "nb_stjosephshospitalhpi",
+  "hotel-dieu-of-saint-joseph":                "nb_hoteldieuofsaintjose",
+  "hotel-dieu-saint-joseph":                   "nb_hoteldieuofsaintjose",
+  "kennebecasis-valley-health-services":       "nb_kennebecasisvalleyhe",
+  "tobique-valley-community-health-centre":    "nb_tobiquevalleycommuni",
+  "tobique-valley-community-hospital":         "nb_tobiquevalleycommuni"
+}

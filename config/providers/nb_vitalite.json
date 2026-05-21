@@ -1,0 +1,49 @@
+{
+  "_comment": "Vitalite Health Network (NB francophone) facility name slugs -> ERstat hospital_id. IDs verified against waitlog-db hospitals table 2026-05-18. Vitalite publishes news in both English and French; the same facility may appear under its English translated name OR its formal French name even on the English page. We map both forms to the same hospital_id. The slugify() function strips diacritics, so accented French names converge to ASCII slugs.",
+  "_last_reviewed": "2026-05-18",
+  "_status": "IDs verified against D1; slug variants will be confirmed empirically — watch source_audit_log for unknown_slug entries after first live pass",
+
+  "campbellton-regional-hospital":             "nb_campbelltonregionalh",
+  "hopital-regional-de-campbellton":           "nb_campbelltonregionalh",
+  "hopital-regional-campbellton":              "nb_campbelltonregionalh",
+
+  "dr-georges-l-dumont-university-hospital-centre": "nb_centrehospitalieruni",
+  "georges-l-dumont-university-hospital":      "nb_centrehospitalieruni",
+  "centre-hospitalier-universitaire-dr-georges-l-dumont": "nb_centrehospitalieruni",
+  "dr-georges-dumont":                         "nb_centrehospitalieruni",
+
+  "enfant-jesus-hospital":                     "nb_hpitaldelenfantjsusr",
+  "hopital-de-l-enfant-jesus":                 "nb_hpitaldelenfantjsusr",
+  "hopital-de-lenfant-jesus":                  "nb_hpitaldelenfantjsusr",
+  "enfant-jesus":                              "nb_hpitaldelenfantjsusr",
+
+  "tracadie-sheila-hospital":                  "nb_hpitaldetracadieshei",
+  "hopital-de-tracadie-sheila":                "nb_hpitaldetracadieshei",
+  "tracadie-hospital":                         "nb_hpitaldetracadieshei",
+
+  "lameque-hospital-and-community-health-centre": "nb_hpitaletcentredesant",
+  "hopital-et-centre-de-sante-communautaire-de-lameque": "nb_hpitaletcentredesant",
+  "lameque-hospital":                          "nb_hpitaletcentredesant",
+  "hopital-de-lameque":                        "nb_hpitaletcentredesant",
+
+  "grand-falls-general-hospital":              "nb_hpitalgeneraldegrand",
+  "hopital-general-de-grand-sault":            "nb_hpitalgeneraldegrand",
+  "grand-falls-hospital":                      "nb_hpitalgeneraldegrand",
+
+  "chaleur-regional-hospital":                 "nb_hpitalrgionalchaleur",
+  "hopital-regional-chaleur":                  "nb_hpitalrgionalchaleur",
+  "chaleur-hospital":                          "nb_hpitalrgionalchaleur",
+
+  "edmundston-regional-hospital":              "nb_hpitalrgionaldedmund",
+  "hopital-regional-d-edmundston":             "nb_hpitalrgionaldedmund",
+  "hopital-regional-edmundston":               "nb_hpitalrgionaldedmund",
+
+  "stella-maris-de-kent-hospital":             "nb_hpitalstellamarisdek",
+  "hopital-stella-maris-de-kent":              "nb_hpitalstellamarisdek",
+  "stella-maris-de-kent":                      "nb_hpitalstellamarisdek",
+
+  "hotel-dieu-saint-joseph-of-saint-quentin":  "nb_hteldieusaintjosephd",
+  "hotel-dieu-saint-joseph-de-saint-quentin":  "nb_hteldieusaintjosephd",
+  "hotel-dieu-de-saint-quentin":               "nb_hteldieusaintjosephd",
+  "saint-quentin-hospital":                    "nb_hteldieusaintjosephd"
+}

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Local LLM extraction cache (lives outside repo but defensive)
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment / secrets
+.env
+.env.*
+config/secrets.json
+
+# Logs
+*.log
+logs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups from manual deploys
+*.bak
+*~

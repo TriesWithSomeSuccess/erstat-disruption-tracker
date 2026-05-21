@@ -1,0 +1,17 @@
+{
+  "name": "erstat-nshealth-html-scraper",
+  "version": "2.0.0",
+  "description": "ERstat: scrape nshealth.ca service-statuses page, classify ED closures via LLM (Haiku 4.5) with regex fallback. Writes via HTTP to ts.erstat.ca — no local PG dependency.",
+  "main": "nshealth_scrape.js",
+  "type": "commonjs",
+  "scripts": {
+    "scrape":     "node nshealth_scrape.js",
+    "test-parse": "node lib/parse.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
